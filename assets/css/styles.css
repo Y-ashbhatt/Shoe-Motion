@@ -208,7 +208,7 @@ img {
 }
 
 .home__social-link:hover{
-  transform: translateY(-.25rem) scale(1.2);
+  transform: translateY(-.25rem) scale(1.5);
 }
 
 .home__images{
@@ -262,7 +262,7 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and(max-width: 320px) {
+@media screen and (max-width: 320px) {
   .container{
     margin-inline: 1rem;
   }
@@ -278,7 +278,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and(min-width: 576px) {
+@media screen and (min-width: 576px) {
   .nav__menu{
     width: 60%;
   }
@@ -295,9 +295,9 @@ img {
 
 
 /* For large devices */
-@media screen and(min-width: 1023px) {
+@media screen and (min-width: 1023px) {
   .nav{
-    height: calc(var(--header-height)+2rem);
+    height: calc( var(--header-height) + 2rem);
   }
 
   .nav__close,
@@ -333,7 +333,7 @@ img {
 
 }
 
-@media screen and(min-width: 1152px) {
+@media screen and ( min-width: 1152px) {
   .container{
     margin-inline: auto;
   }
@@ -360,10 +360,10 @@ img {
     height: 500px;
   }
 }
-
-@media screen and(min-width: 1248px) {
+ 
+@media screen and ( min-width: 1248px) {
   .home__social{
-    right: -3rem;
+    right: -5rem;
     row-gap: 2rem;
   }
 
